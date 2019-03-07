@@ -20,6 +20,6 @@
 #     elif result == '-':
 #         difference = number_one - number_two
 #         print(difference)
-#
+
 # func_numbers()
 
