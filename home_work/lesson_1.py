@@ -60,9 +60,57 @@ a = set(a)
 a.remove(0)
 print(a)
 
-
-
+# num_1 % 5 == 0 and num_2 % 5 == 0
 
 
 # Напишите программу, которая выводит все кратные 5 числа между двумя пользовательскими числами
+num_1 = int(input('Введите число: '))
+num_2 = int(input('Введите еще число: '))
+list = []
+my_lst = []
+if num_1 >= num_2:
+	print('Первое число должно быть меньше, чем второе!')
+for item in range(num_1, num_2 + 1):
+	list.append(item)
+for i in list:
+	if i % 5 == 0:
+		my_lst.append(i)
+
+# or:
+
+while True:
+	num_1 = int(input('Введите число: '))
+	num_2 = int(input('Введите еще число: '))
+	list = []
+	my_list = []
+	if num_1 >= num_2:
+		print('Первое число должно быть меньше, чем второе!') continue
+	else:
+		for item in range(num_1, num_2 + 1):
+			list.append(item)
+		for i in list:
+			if i % 5 == 0:
+				my_list.append(i)
+print(my_list)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
