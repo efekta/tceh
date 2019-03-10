@@ -20,18 +20,28 @@
 
 # Создать лист из 3 слов: ['Earth', 'Russia', 'Moscow'], соеденить все слова в единую строку,
 # чтобы получилось: 'Earth -> Russia -> Moscow'
-# new_list = ['Earth', 'Russia', 'Moscow']
-# symbol = ' -> '
-# for i in new_list:
-#     i.append(symbol)
-#     print(new_list)
+first_list = ['Earth', 'Russia', 'Moscow']
+new_list = str(first_list[0]) + ' -> ' + str(first_list[1] + ' -> ' + str(first_list[2]) + ' -> ')
+print(new_list)
+
 
 # Взять строку '/bin:/usr/bin:/usr/local/bin' и разбить ее в список по символу ':'
-#
-#
-#
+s = '/bin:/usr/bin:/usr/local/bin'
+print(s.split(':'))
+
+
+
 # Пройти по всем числам от 1 до 100, написать в консоль, какие из них делятся на 7, а какие - нет
-#
+a = 1
+b = 100
+for i in range(a, b + 1):
+	for d in i:
+		if d % 7 == 0:
+			print(d)
+		
+
+
+
 # Создать матрицу любых чисел 3 на 4,
 # сначала вывести все строки, потом все столбцы
 #
