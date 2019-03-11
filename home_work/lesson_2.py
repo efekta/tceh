@@ -62,6 +62,24 @@ print(a)
 print(b)
 print(c)
 
+# or
+matrix = [[1, 2, 3],
+          [4, 5, 6],
+          [7, 8, 9],
+          [10, 11, 12]]
+
+print('Выводим строки\n')
+for col in range(len(matrix)):
+    print('\n')
+    for string in range(len(matrix[col])):
+        print(matrix[col][string], end=' ')
+
+print('Выводим колонки\n')
+for string in range(len(matrix[col])):
+    print('\n')
+    for col in range(len(matrix)):
+        print(matrix[col][string], end=' ')
+
 # Создать список любых объектов, в цикле напечатать в консоль: объект и его индекс
 l = [True, 'some text', None, 177, 1.5, [1,2,3,]]
 for i in l:
