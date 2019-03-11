@@ -42,16 +42,41 @@ for i in range(a, b+1):
 
 # Создать матрицу любых чисел 3 на 4,
 # сначала вывести все строки, потом все столбцы
+matrix = [
+    [11, 22, 33],
+    [55, 66, 77],
+    [88, 99, 100],
+    [111, 999, 555]
+]
+a = []
+b = []
+c = []
 
-
-
+for i in matrix:
+    print(row)
+for col in matrix:
+    a.append(col[0])
+    b.append(col[1])
+    c.append(col[2])
+print(a)
+print(b)
+print(c)
 
 # Создать список любых объектов, в цикле напечатать в консоль: объект и его индекс
-#
-#
-#
+l = [True, 'some text', None, 177, 1.5, [1,2,3,]]
+for i in l:
+    print('объект: ' + str(i) + ' - > имеет индекс: ' + str(l.index(i)))
 # Создать список с тремя значениями 'to-delete' и нескольми любыми другими, удалить из него все значения 'to-delete'
-#
-#
-#
+l = [555, 'to-delete', False, None, 'to-delete', 'some text', 'to-delete', {1:'1'}]
+for item in l:
+    if item == 'to-delete':
+        l.remove(item)
+print(l)
 # Пройти по всем числам от 1 до 10 в обратную сторону (то есть: от 10 до 1), напечатать их в консоль
+# a = 10
+# while a != 0:
+#     a -= 1
+#     print(a)
+
+for i in range(10, 0, -1): # от 10 до 1 с шагом -1, т.е. с 1 - ого до последнего элемента
+    print(i)
