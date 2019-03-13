@@ -36,13 +36,44 @@ for question in my_dict.keys():
         print('Не верно')
         question_cnt += 1
 print("Всего ответов {}, Из них правильных {}".format(question_cnt, answer_cnt))    
+
+
 # как не учитывать регистр ответа пользователя только в одном случае а в остальных учитывать
+questions_to_answers = {
+    'Какой язык программирования мы изучаем? ' : ('Python', True),
+    'Как обозначается истина?: ' : ('True', False),
+    'Как обозначается ложь?: ' : ('False', False),
+    'Как привести строку в число?: ' : ('int', True),
+    'Как привести целое число в число с плавающей точкой?: ' : ('float', True),
+    'Назовите цикл с пре-условием: ' : ('while', True),
+    'Что вернет выражение len("Hello!")?: ' : ('6', True),
+    'Что вернет выражение "Hello"[1]?: ' : ('e', True),
+    'Чему равно утверждение 0 == None ?: ' : ('False', False),
+    'Чему равно утверждение (True or False) and True?: ' : ('True', False)
+}
+question_cnt = 0 # счетчик вопросов
+answer_cnt = 0 # счетчик ответов
+for question, answer in questions_to_answers.items():
+    print('\n')
+    print(question)
+    user_answer = input()
 
-
-
-
-
-
+    is_register_unimportant = answer[1]
+    if is_register_unimportant and user_answer.lower() == answer[0].lower():
+        print("Верно!")
+        answer_cnt += 1
+        question_cnt += 1
+    elif user_answer == answer[0]:
+        print("Верно!")
+        answer_cnt += 1
+        question_cnt += 1
+    elif not user_answer.lower():
+        print('Вопрос пропущен')
+        question_cnt += 1
+    else:
+        print("Ответ неверный!")
+        question_cnt += 1
+print("Всего ответов {}, Из них правильных {}".format(question_cnt, answer_cnt)) 
 
 
 
