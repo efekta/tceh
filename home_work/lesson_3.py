@@ -21,17 +21,18 @@
 # Пользователь должен ввести индекс объекта, который хочет посмотреть.
 # Если все хорошо - пишите объект в консоль.
 # Если нет - обработайте возмозможные ошибки и скажите ему, что не так
-l = ['5', 'Liliya', 'hi!']
-try:
-    user_input = int(input('Введи индекс объекта, который хочешь посмотреть: '))
-    if user_input >= 0:
-        if user_input >= len(l):
-            raise IndexError('Нет такого индекса!')
-    print(l[user_input])
-except IndexError:
-    print('Нет такого индекса!')
-except ValueError:
-    print('Некорректный ввод индекса!')
+
+# l = ['5', 'Liliya', 'hi!']
+# try:
+#     user_input = int(input('Введи индекс объекта, который хочешь посмотреть: '))
+#     if user_input >= 0:
+#         if user_input >= len(l):
+#             raise IndexError('Нет такого индекса!')
+#     print(l[user_input])
+# except IndexError:
+#     print('Нет такого индекса!')
+# except ValueError:
+#     print('Некорректный ввод индекса!')
 
 
 

@@ -4,7 +4,9 @@
     <bookmark url="file://$PROJECT_DIR$/home_work/lesson_2.py" description="t = (1.5, 6.5, 1.2, 15.9, 99.1, 874.4, 4.6, 8.89, ..." line="19" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f16e69cb-8ed0-4315-9625-c466daab82fd" name="Default Changelist" comment="" />
+    <list default="true" id="f16e69cb-8ed0-4315-9625-c466daab82fd" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/home_work/lesson_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/home_work/lesson_3.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,10 +42,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/home_work/lesson_3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="31" column="32" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
+            <state relative-caret-position="425">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
               <folding>
-                <marker date="1552639808589" expanded="true" signature="249:595" ph="..." />
+                <marker date="1552659972305" expanded="true" signature="249:595" ph="..." />
+                <marker date="1552659972305" expanded="true" signature="909:1286" ph="..." />
               </folding>
             </state>
           </provider>
@@ -74,7 +77,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="194" />
     <option name="y" value="174" />
     <option name="width" value="1440" />
@@ -224,22 +227,22 @@
       <workItem from="1552216051215" duration="596000" />
       <workItem from="1552287052922" duration="4881000" />
       <workItem from="1552459674566" duration="813000" />
-      <workItem from="1552630190063" duration="7772000" />
+      <workItem from="1552630190063" duration="7797000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20200000" />
+    <option name="totallyTimeSpent" value="20225000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13486141" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3293348" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3293348" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -311,10 +314,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/home_work/lesson_3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="31" column="32" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
+        <state relative-caret-position="425">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
           <folding>
-            <marker date="1552639808589" expanded="true" signature="249:595" ph="..." />
+            <marker date="1552659972305" expanded="true" signature="249:595" ph="..." />
+            <marker date="1552659972305" expanded="true" signature="909:1286" ph="..." />
           </folding>
         </state>
       </provider>
