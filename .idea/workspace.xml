@@ -4,29 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/home_work/lesson_2.py" description="t = (1.5, 6.5, 1.2, 15.9, 99.1, 874.4, 4.6, 8.89, ..." line="19" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f16e69cb-8ed0-4315-9625-c466daab82fd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/course/course_1/everything_is_an_object.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/course/course_1/loops.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/course/course_1/operations.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/course/course_1/sizes.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/course/course_1/types/None_type.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/course/course_1/types/bool_type.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/course/course_1/types/numeric_types.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/course/course_1/types/string_types.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/course/course_1/vars.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/course/course_2/complex_types/dicts.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/course/course_2/complex_types/lists.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/course/course_2/complex_types/tuples.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/course/course_2/functions.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/course/course_2/mutations.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/other/my.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/other/repl.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/other/test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/other/work.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/other/примеры решения дз #1/extra task #1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/other/примеры решения дз #1/quiz #1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/other/примеры решения дз #1/quiz #2.py" beforeDir="false" />
-    </list>
+    <list default="true" id="f16e69cb-8ed0-4315-9625-c466daab82fd" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,8 +40,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/home_work/lesson_3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="31">
-              <caret line="23" selection-start-line="23" selection-end-line="33" selection-end-column="39" />
+            <state relative-caret-position="279">
+              <caret line="31" column="32" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
               <folding>
                 <marker date="1552639808589" expanded="true" signature="249:595" ph="..." />
               </folding>
@@ -96,7 +74,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="194" />
     <option name="y" value="174" />
     <option name="width" value="1440" />
@@ -246,16 +224,15 @@
       <workItem from="1552216051215" duration="596000" />
       <workItem from="1552287052922" duration="4881000" />
       <workItem from="1552459674566" duration="813000" />
-      <workItem from="1552630190063" duration="6031000" />
+      <workItem from="1552630190063" duration="7772000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18459000" />
+    <option name="totallyTimeSpent" value="20200000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13486141" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -334,8 +311,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/home_work/lesson_3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="31">
-          <caret line="23" selection-start-line="23" selection-end-line="33" selection-end-column="39" />
+        <state relative-caret-position="279">
+          <caret line="31" column="32" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
           <folding>
             <marker date="1552639808589" expanded="true" signature="249:595" ph="..." />
           </folding>
