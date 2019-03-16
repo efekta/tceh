@@ -4,9 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/home_work/lesson_2.py" description="t = (1.5, 6.5, 1.2, 15.9, 99.1, 874.4, 4.6, 8.89, ..." line="19" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f16e69cb-8ed0-4315-9625-c466daab82fd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/home_work/lesson_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/home_work/lesson_3.py" afterDir="false" />
-    </list>
+    <list default="true" id="f16e69cb-8ed0-4315-9625-c466daab82fd" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +31,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/home_work/lesson_1(game).py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="552">
+            <state relative-caret-position="897">
               <caret line="39" selection-start-line="39" selection-end-line="39" />
             </state>
           </provider>
@@ -43,7 +41,7 @@
         <entry file="file://$PROJECT_DIR$/home_work/lesson_3.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="425">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
               <folding>
                 <marker date="1552659972305" expanded="true" signature="249:595" ph="..." />
                 <marker date="1552659972305" expanded="true" signature="909:1286" ph="..." />
@@ -228,16 +226,17 @@
       <workItem from="1552287052922" duration="4881000" />
       <workItem from="1552459674566" duration="813000" />
       <workItem from="1552630190063" duration="7797000" />
+      <workItem from="1552670021747" duration="166000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20225000" />
+    <option name="totallyTimeSpent" value="20391000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13486141" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1359275" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -264,34 +263,22 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/other/repl.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5727" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/other/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-87" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/other/my.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7314">
-          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/other/work.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="79" selection-start-line="79" selection-end-line="81" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/other/repl.py" />
+    <entry file="file://$PROJECT_DIR$/other/test.py" />
+    <entry file="file://$PROJECT_DIR$/other/my.py" />
+    <entry file="file://$PROJECT_DIR$/other/work.py" />
+    <entry file="file://$PROJECT_DIR$/course/course_2/game_code/game.py" />
     <entry file="file://$PROJECT_DIR$/home_work/lesson_1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1978">
           <caret line="86" column="62" selection-start-line="86" selection-start-column="62" selection-end-line="86" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home_work/lesson_1(game).py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="897">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
         </state>
       </provider>
     </entry>
@@ -302,20 +289,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/home_work/lesson_1(game).py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/course/course_2/game_code/game.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/home_work/lesson_3.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
           <folding>
             <marker date="1552659972305" expanded="true" signature="249:595" ph="..." />
             <marker date="1552659972305" expanded="true" signature="909:1286" ph="..." />
