@@ -47,16 +47,16 @@ er()
 #Написать функцию которая принимает на вход список, если все объекты -
 #int, сортирует его. Иначе выбрасывает ValueError.
  
-def listik (*numbers):
+def my_list (*numbers):
     new_list = []
     for number in numbers:
         if type(number) == int:
             new_list.append(number)
         else:
             raise ValueError()
-    sort_list = sorted (new_list)
+    sort_list = sorted(new_list)
     return sort_list
-print (listik (22, 3, 55, 6))
+print(my_list(22, 3, 55, 6))
 
 
 #Написать функцию которая принимает словарь,
