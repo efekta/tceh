@@ -43,6 +43,27 @@ def er ():
 	        print('Ты ввел ' + str(number))
 er()
 
+# and or
+def error_func():
+  import random
+  number = random.randint(0,10)
+  if number == 0:
+    try:
+      raise ValueError
+    except ValueError:
+      print('This number 0!')
+  elif number > 0 and number < 10 and number != 0:
+    try:
+      raise TypeError
+    except TypeError:
+      print('This number > 0 and < 10')
+  else:
+    try:
+      raise RuntimeError
+    except RuntimeError:
+      print('10')
+
+error_func()
 
 #Написать функцию которая принимает на вход список, если все объекты -
 #int, сортирует его. Иначе выбрасывает ValueError.
