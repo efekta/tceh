@@ -1,133 +1,30 @@
-# -*- coding: utf-8 -*-
-
-# `random` module is used to shuffle field, see§:
-# https://docs.python.org/3/library/random.html#random.shuffle
-import random
-
-
-# Empty tile, there's only one empty cell on a field:
-EMPTY_MARK = 'x'
-
-# Dictionary of possible moves if a form of: 
-# key -> delta to move the empty tile on a field.
-MOVES = {
-    'w': -4,
-    's': 4,
-    'a': -1,
-    'd': 1,
-}
-
-
-def shuffle_field():
-    """
-    This method is used to create a field at the very start of the game.
-    :return: list with 16 randomly shuffled tiles,
-    one of which is a empty space.
-    """
-    field = list(range(1, 17))
-    field[-1] = EMPTY_MARK
-    random.shuffle(field)
-
-    # possible_moves = list(MOVES.keys())
-    # applied_moves = 0
-    # while applied_moves < 100:
-    #     random_move = random.choice(possible_moves)
-
-    #     try:
-    #         field = perform_move(field, random_move)
-    #         applied_moves += 1
-    #     except IndexError:
-    #         continue
-
-    return field
-
-
-def print_field(field):
-    """
-    This method prints field to user.
-    :param field: current field state to be printed.
-    :return: None
-    """
-    for i in range(0, 16, 4):
-        print(field[i:i + 4])
-    print('\n')
-
-
-def is_game_finished(field):
-    """
-    This method checks if the game is finished.
-    :param field: current field state.
-    :return: True if the game is finished, False otherwise.
-    """
-    ideal = list(range(1, 16))
-    ideal.append(EMPTY_MARK)
-
-    return ideal == field
-
-
-def perform_move(field, key):
-    """
-    Moves empty-tile inside the field.
-    :param field: current field state.
-    :param key: move direction.
-    :return: new field state (after the move).
-    :raises: IndexError if the move can't me done.
-    """
-    current_position = field.index(EMPTY_MARK)
-
-    if key == 's' and current_position >= 12:
-        raise IndexError('Cant move down')
-
-    if key == 'd' and current_position % 4 == 3:
-        raise IndexError('Cant move right')
-
-    if key == 'w' and current_position < 4:
-        raise IndexError('Cant move up')
-
-    if key == 'a' and current_position % 4 == 0:
-        raise IndexError('Cant move left')
-
-    delta = MOVES[key]
-    field[current_position], field[current_position + delta] = field[current_position + delta], field[current_position]
-    return field
-
-def handle_user_input():
-    """
-    Handles user input. List of accepted moves:
-        'w' - up, 
-        's' - down,
-        'a' - left, 
-        'd' - right
-    :return: <str> current move.
-    """
-    while True:
-        user_move = input('Please, input your move: ')
-        if user_move in MOVES.keys():
-            return user_move
-
-
-def main():
-    """
-    The main method. It stars when the program is called.
-    It also calls other methods.
-    :return: None
-    """
-    field = shuffle_field()
-    # field = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 'x', 15]
-
-    while not is_game_finished(field):
-        try:
-            print_field(field)
-            move = handle_user_input()
-            field = perform_move(field, move)
-        except IndexError as e:
-            print(e)
-
-    print('Game is finished!')
-
-
-if __name__ == '__main__':
-    # See what this means:
-    # http://stackoverflow.com/questions/419163/what-does-if-name-main-do
-
-    main()
+# *Сложный вариант:
+# Задача: необходимо реализовать игру в пятнашки.
+# Задача про пятнашки действительно непростая, но очень интересная.
+#
+# **Требования:
+# 1. Игра пятнашки: https://ru.wikipedia.org/wiki/%D0%98%D0%B3%D1%80%D0%B0_%D0%B2_15
+# 2. Поле состоит из клеток от 1 до 15 и пустой клетки
+# 3. Управление ведется кнопками "wasd", двигается пустая клетка
+# 4. В начале игры поле перемешено в случайном порядке
+# 5. Пользователь не должен соверашть непозволительные шаги.
+# Например, из-за ограничений рамки поля. Ему должно показываться сообщение о том,
+# что он пытается совершить непозволительный ход
+# 6. Пользователю дожно быть видно поле. Оно представляет собой матрицу 4 на 4.
+# Пустую клекту обозначаем как x. При каждом действии пользователя поле рисуется еще раз - ниже в консоли
+# 7. Игра заканчивается, когда все клетки стоят по-порядку, а пустая клетка - последняя.
+# В конце игры пользователю показывается, сколько ходов он совершил
+# 8. Выход из игры происходит при помощи KeyboardInterrupt. Исключение должно быть обработано.
+# Пользователю должна быть выведена фраза "shutting down"
+#
+# **Дополнительно:
+# 1. Обратите внимание, что не любое поле оставляет возможность закончить игру,
+# необходимо придумать корректный алгоритм генерации взамен простого перемешивания
+# 2. Тесты, которые приложены к работе должны проходить
+# 3. Вам необходимо посмотреть, как работают самописные тесты, которые приложены к работе
+#
+# **Прохождение тестов:
+# 1. Создаем папку game_code
+# 2. В ней создаем файл game.py
+# 3. Рядом должен лежать мой файл tests.py
+# 4. Вызываем python3 tests.py
