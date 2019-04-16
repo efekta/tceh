@@ -106,7 +106,7 @@ def arr():
                 x1, y1 = kord()
                 canvas.create_text(x1, y1, text=wo[ind2], fill="purple", font=("Helvectica", "18"))
             if len(win) == 6:
-                canvas.create_text(150, 150, text="Ты выиграл!!!", fill="purple", font=("Helvectica", "16"))
+                canvas.create_text(350, 450, text="Ты выиграл!!!", fill="purple", font=("Helvectica", "16"))
                 for i in alfabet:
                     btn[i]['state'] = 'disabled'
         else:
@@ -194,7 +194,7 @@ def arr():
         root.update()
 
     def end():
-        canvas.create_text(150, 150, text="Конец игры : (", fill="purple", font=("Helvectica", "16"))
+        canvas.create_text(350, 450, text="Конец игры : (", fill="purple", font=("Helvectica", "16"))
         canvas.create_line(100, 10, 100, 60, width=4)
         for i in alfabet:
             btn[i]['state'] = 'disabled'
@@ -204,3 +204,4 @@ btn01 = Button(root, text='Играть', width=10, height=2, command=lambda: ar
 btn01.place(x=298, y=542)
 btn01["bg"] = "red"
 root.mainloop()
+
